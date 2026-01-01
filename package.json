@@ -1,0 +1,15 @@
+{
+  "name": "poly-trader-app",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "db:push": "cd apps/api && npx prisma db push"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.2"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}

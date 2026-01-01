@@ -1,0 +1,16 @@
+{
+  "name": "telegram-bot",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "grammy": "^1.19.0",
+    "ioredis": "^5.3.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "ts-node": "^10.9.2"
+  }
+}
